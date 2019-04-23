@@ -2,6 +2,8 @@
 {
 	margin: 0 30px;
 	background: #fff;
+	text-align: center;
+	font-family: Arial;
 }
 
 #header
@@ -10,7 +12,11 @@
 	padding: 20px;
 }
 
-#header h1 { margin: 0; }
+#header h1 {
+		margin: 0;
+		text-decoration: underline;
+		font-style: italic;
+}
 
 #navigation
 {
@@ -52,9 +58,9 @@
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
 	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
+	background-image: -webkit-gradient(linear, left top, right top, from(#FEB98E), to(#FE948E));
+	background-image: -webkit-linear-gradient(left, #FEB98E, #FE948E);
+	background-image: linear-gradient(left, #FEB98E, #FE948E);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
@@ -67,19 +73,21 @@
 	margin: 0 0 .5em;
 }
 
-#news
-{	
-	float: left;
+#news{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	margin-top: 20px;
+	margin-bottom : 20px;
 	width: 40%;
 	padding: 20px;
-	margin: 20px;
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
 	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
+	background-image: -webkit-gradient(linear, left top, right top, from(#FEB98E), to(#FE948E));
+	background-image: -webkit-linear-gradient(left, #FEB98E, #FE948E);
+	background-image: linear-gradient(left, #FEB98E, #FE948E);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
